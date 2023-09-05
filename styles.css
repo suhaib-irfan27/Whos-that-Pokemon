@@ -1,0 +1,138 @@
+body {
+    margin: 0;
+    padding: 0;
+    /* background: linear-gradient(0.25turn, #3f87a6, #ebf8e1, #f69d3c); */
+    /* background-image: linear-gradient(109.6deg, rgba(156, 252, 248, 1) 11.2%, rgba(110, 123, 251, 1) 91.1%); */
+    background-image: linear-gradient(to right, #b6fbff, #83a4d4);
+
+
+}
+
+.container {
+    border-radius: 15px;
+    width: 80%;
+    max-width: 400px;
+    background-color: #ffffff;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    position: relative;
+}
+
+.submit {
+    margin-left: 65%;
+}
+
+.btn-success {
+    margin-left: 37%;
+
+}
+
+.image-container {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.radio-container {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+input[type="radio"] {
+    margin-bottom: 10px;
+}
+
+.button-container {
+    display: flex;
+    justify-content: flex-end;
+}
+
+button {
+    border-radius: 15px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+}
+
+/* .radio {
+    display: block;
+    cursor: pointer;
+    user-select: none;
+    text-align: left;
+
+    &+.radio {
+        margin-top: 12px;
+    }
+
+    input {
+        display: none;
+
+        &+span {
+            display: inline-block;
+            position: relative;
+            padding-left: 30px;
+
+            &:before {
+                content: '';
+                display: block;
+                position: absolute;
+                top: 0px;
+                left: 0px;
+                border-radius: 50%;
+                margin-right: 5px;
+                width: 16px;
+                height: 16px;
+                border: 1px solid #ccc;
+                background: #fff;
+            }
+
+            &:after {
+                content: '';
+                display: block;
+                width: 10px;
+                height: 10px;
+                background: #222;
+                position: absolute;
+                border-radius: 50%;
+                top: 3px;
+                left: 3px;
+                opacity: 0;
+                transform: scale(0, 0);
+                transition: all .2s cubic-bezier(0.64, 0.57, 0.67, 1.53);
+            }
+        }
+
+        &:checked+span:after {
+            opacity: 1;
+            transform: scale(1, 1);
+        }
+    }
+} */
+
+/* END CHECKBOX STYLE */
+
+/* .container {
+    width: 40%;
+    top: 25%;
+    left: 50%;
+    background: white;
+    border-radius: 10px;
+    min-width: 450px;
+    position: absolute;
+    min-height: 120px;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+
+/* .form-check {
+    display: block;
+}  */
